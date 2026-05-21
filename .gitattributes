@@ -1,0 +1,3 @@
+# Forzar que todos los archivos de texto usen LF (saltos de línea estilo Linux) al ser clonados.
+# Esto evita que Docker falle en Windows debido a caracteres CRLF (\r) en los scripts de CPS y de compilación.
+* text eol=lf
