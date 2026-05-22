@@ -38,4 +38,4 @@ WORKDIR /app
 
 COPY . /app
 
-CMD ["python", "main_wavefield.py"]
+CMD ["python", "main.py"]
